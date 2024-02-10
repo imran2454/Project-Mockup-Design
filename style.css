@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    background-color:#edf1fd;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1% 8%;
+    font-family: 'Poppins', sans-serif;
+}
+
+    footer  {
+        display: flex;
+      
+     
+      /* height: auto; */
+      margin-bottom: 10%;
+      line-height: 40px;
+      margin-bottom: 5%;
+    
+          
+    }
+    
+  
+    
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+    
+}
+li a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    gap:30px;
+}
+.search{
+    display: flex;
+    gap:30px;
+
+}
+input{
+    padding: 4px 10px;
+}
+button{
+    background-color: rgb(18,155,155);
+    padding: 4px 10px;
+    color:white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    width: fit-content;
+    border: 1px solid white;
+}
+button:hover{
+    color: rgb(18,155,155);
+    background-color: white;
+    border: 1px solid black;
+}
+.logo{
+   font-size: 30px;
+   font-weight: 600;
+}
+ a{
+    font-size: 20px;
+}
+a:hover{
+    font-weight: 600;
+    text-decoration: underline;
+
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+.left-section{
+    width: 60%;
+
+}
+h1{
+    font-size: 38px;
+    margin-bottom: 16px;
+    font-weight: 900;
+    
+}
+p{
+    font-size: 30px;
+    font-weight: 500;
+}
+h1 span{
+    color:rgb(18,155,155);
+    background-color:#dfdfe0;
+    padding: 0 15px;
+}
+p span{
+    color:rgb(18,155,155);
+    line-height: 40px;
+}
+.right-section{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.right-section img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+footer p{
+    font-size: 20px;
+    font-weight: 600;
+}
+ ul li a i {
+    font-size: 25px;
+}
+i:hover{
+    font-weight: 900;
+}
